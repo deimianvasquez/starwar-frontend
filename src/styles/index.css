@@ -1,3 +1,38 @@
 /* 
     General Styles
 */
+.home-card-list{
+    border: 0px solid black;
+    display: flex;
+    overflow-x: scroll !important;
+ 
+}
+.card-star {
+    min-width: 300px;
+    border: 1px solid rgb(201, 198, 198);
+    margin-right: 10px;
+   
+}
+.description-card{
+    padding: 5px 10px;
+}
+.description-card p{
+    border: 0px solid red;
+    margin: 0;
+}
+.footer-card{
+    padding: 15px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.header{
+    color:red;
+}
+.header-card{
+    padding: 5px 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.card-image img {
+    width: 100%;
+}
